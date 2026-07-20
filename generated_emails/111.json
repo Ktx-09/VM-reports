@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-07-20T10:48:09.703547Z",
+  "agent_name": "Vulnerability Detection Email Generation and GitHub Publisher Agent",
+  "execution_id": null,
+  "repository": "Ktx-09/VM-reports",
+  "agent_output": [
+    {
+      "detection_id": "DET123",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Critical: Linux kernel vulnerabilities (IN-1234-1) on dev02 - DET123",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev2 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123456\nIP Address: \nHost Name: dev02\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nLinux kernel vulnerabilities (IN-1234-1)\nUpdate the affected kernel package.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Critical",
+        "vulnerability_name": "Linux kernel vulnerabilities (IN-1234-1)",
+        "server_name": "dev02",
+        "epr_id": "123456",
+        "resource_id": "i-0e06d6ff763fd18bf",
+        "account_name": "aws-dev2",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET124",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] High: Apache HTTP Server Multiple Vulnerabilities on web01 - DET124",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev3 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123457\nIP Address: \nHost Name: web01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nApache HTTP Server Multiple Vulnerabilities\nUpgrade Apache HTTP Server to the latest supported version.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "High",
+        "vulnerability_name": "Apache HTTP Server Multiple Vulnerabilities",
+        "server_name": "web01",
+        "epr_id": "123457",
+        "resource_id": "i-08b23fd45a98bc761",
+        "account_name": "aws-prod",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET125",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Critical: MySQL Privilege Escalation Vulnerability on db01 - DET125",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev4 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123458\nIP Address: \nHost Name: db01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nMySQL Privilege Escalation Vulnerability\nUpgrade MySQL and apply vendor security patches.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Critical",
+        "vulnerability_name": "MySQL Privilege Escalation Vulnerability",
+        "server_name": "db01",
+        "epr_id": "123458",
+        "resource_id": "i-0c34ad9876bc123ef",
+        "account_name": "aws-db",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET126",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Medium: OpenSSL Security Update Required on app01 - DET126",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev5 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123459\nIP Address: \nHost Name: app01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nOpenSSL Security Update Required\nUpgrade OpenSSL to the latest stable release.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Medium",
+        "vulnerability_name": "OpenSSL Security Update Required",
+        "server_name": "app01",
+        "epr_id": "123459",
+        "resource_id": "i-07de56fa91bc234ab",
+        "account_name": "aws-app",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET127",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] High: Redis Unauthorized Access Vulnerability on cache01 - DET127",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev6 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123460\nIP Address: \nHost Name: cache01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nRedis Unauthorized Access Vulnerability\nEnable authentication and restrict network access.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "High",
+        "vulnerability_name": "Redis Unauthorized Access Vulnerability",
+        "server_name": "cache01",
+        "epr_id": "123460",
+        "resource_id": "i-03bc45de67fa891cd",
+        "account_name": "aws-cache",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET128",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Critical: NGINX Buffer Overflow Vulnerability on nginx01 - DET128",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev7 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123461\nIP Address: \nHost Name: nginx01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nNGINX Buffer Overflow Vulnerability\nUpgrade NGINX to a patched version.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Critical",
+        "vulnerability_name": "NGINX Buffer Overflow Vulnerability",
+        "server_name": "nginx01",
+        "epr_id": "123461",
+        "resource_id": "i-09fa78bc12de345ef",
+        "account_name": "aws-web",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET129",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Low: Python Requests Library Vulnerability on test01 - DET129",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev8 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123462\nIP Address: \nHost Name: test01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nPython Requests Library Vulnerability\nUpdate the requests library to the latest version.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Low",
+        "vulnerability_name": "Python Requests Library Vulnerability",
+        "server_name": "test01",
+        "epr_id": "123462",
+        "resource_id": "i-01ab23cd45ef678gh",
+        "account_name": "aws-test",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET130",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] High: Docker Engine Privilege Escalation on api01 - DET130",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev9 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123463\nIP Address: \nHost Name: api01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nDocker Engine Privilege Escalation\nUpgrade Docker Engine and restart affected services.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "High",
+        "vulnerability_name": "Docker Engine Privilege Escalation",
+        "server_name": "api01",
+        "epr_id": "123463",
+        "resource_id": "i-0f98bc76de54321ab",
+        "account_name": "aws-api",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET131",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Medium: OpenSSH Multiple Vulnerabilities on bastion01 - DET131",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev10 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123464\nIP Address: \nHost Name: bastion01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nOpenSSH Multiple Vulnerabilities\nUpgrade OpenSSH and disable deprecated ciphers.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Medium",
+        "vulnerability_name": "OpenSSH Multiple Vulnerabilities",
+        "server_name": "bastion01",
+        "epr_id": "123464",
+        "resource_id": "i-0ab12cd34ef56gh78",
+        "account_name": "aws-security",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET132",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Critical: Kubernetes API Server Vulnerability on worker01 - DET132",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev11 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123465\nIP Address: \nHost Name: worker01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nKubernetes API Server Vulnerability\nUpgrade Kubernetes control plane and worker nodes to a patched version.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Critical",
+        "vulnerability_name": "Kubernetes API Server Vulnerability",
+        "server_name": "worker01",
+        "epr_id": "123465",
+        "resource_id": "i-0123abcd4567ef890",
+        "account_name": "aws-batch",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET133",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] High: Tomcat Remote Code Execution Vulnerability on app02 - DET133",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev12 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123466\nIP Address: \nHost Name: app02\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nTomcat Remote Code Execution Vulnerability\nUpgrade Apache Tomcat to the latest patched version.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "High",
+        "vulnerability_name": "Tomcat Remote Code Execution Vulnerability",
+        "server_name": "app02",
+        "epr_id": "123466",
+        "resource_id": "i-0a1b2c3d4e5f67890",
+        "account_name": "aws-app2",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET134",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Critical: Log4j Remote Code Execution (Log4Shell) on web02 - DET134",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev13 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123467\nIP Address: \nHost Name: web02\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nLog4j Remote Code Execution (Log4Shell)\nUpgrade Log4j to version 2.17.1 or later.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Critical",
+        "vulnerability_name": "Log4j Remote Code Execution (Log4Shell)",
+        "server_name": "web02",
+        "epr_id": "123467",
+        "resource_id": "i-1b2c3d4e5f6a78901",
+        "account_name": "aws-web2",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    },
+    {
+      "detection_id": "DET135",
+      "email_stage": "Initial Notification",
+      "subject": "[VM-INITIAL] Medium: Grafana Authentication Bypass Vulnerability on monitor01 - DET135",
+      "to": "Apoorv",
+      "cc": "Siddhi",
+      "reply_to": "",
+      "email_body": "Hi Team,\n\n \n\nHigh\u2011severity vulnerabilities have been identified on a Production application server supporting the aws-dev14 application. \n \n\nAffected Host / Asset\n\nEPR ID: 123468\nIP Address: \nHost Name: monitor01\nFQDN: \nOS: \nEnvironment: \n \n\nDetailed Findings & Required Actions\n\nGrafana Authentication Bypass Vulnerability\nUpgrade Grafana to the latest secure release.\n\n \n\nReferences\n\n \n\nConfirmation Requested\nPlease confirm:\n\nPlanned remediation date or completion status\nAssociated Change / SR reference\nAny constraints requiring deviation or risk acceptance\n \n\nOnce remediation is completed, validation scans will be scheduled to close these findings.\n\n \n\nThank you for your prompt attention.\n\n \n\nBest regards,",
+      "metadata": {
+        "severity": "Medium",
+        "vulnerability_name": "Grafana Authentication Bypass Vulnerability",
+        "server_name": "monitor01",
+        "epr_id": "123468",
+        "resource_id": "i-2c3d4e5f6a7b89012",
+        "account_name": "aws-monitor",
+        "account_owner": "Apoorv",
+        "application_admin_contacts": "Siddhi",
+        "direct_manager": "Sandeep"
+      }
+    }
+  ]
+}
